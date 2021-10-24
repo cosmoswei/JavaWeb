@@ -1,0 +1,56 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="javaweb-02-filter02:war exploded">
+    <output-path>$PROJECT_DIR$/target/echo</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>javaweb-02-filter02</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="javaweb-02-filter02" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:4.0.1" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:git:3.6.0" />
+          <element id="library" level="project" name="Maven: joda-time:joda-time:2.9.5" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci:annotation-indexer:1.11" />
+          <element id="library" level="project" name="Maven: com.infradna.tool:bridge-method-annotation:1.17" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:structs:1.10" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci:symbol-annotation:1.10" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:git-client:2.5.0" />
+          <element id="library" level="project" name="Maven: org.eclipse.jgit:org.eclipse.jgit:4.5.2.201704071617-r" />
+          <element id="library" level="project" name="Maven: com.jcraft:jsch:0.1.53" />
+          <element id="library" level="project" name="Maven: com.googlecode.javaewah:JavaEWAH:0.7.9" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.2" />
+          <element id="library" level="project" name="Maven: org.eclipse.jgit:org.eclipse.jgit.http.server:4.5.2.201704071617-r" />
+          <element id="library" level="project" name="Maven: org.eclipse.jgit:org.eclipse.jgit.http.apache:4.5.2.201704071617-r" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpclient:4.5.2" />
+          <element id="library" level="project" name="Maven: org.apache.httpcomponents:httpcore:4.4.4" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.9" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:credentials:2.1.14" />
+          <element id="library" level="project" name="Maven: org.antlr:antlr4-runtime:4.5" />
+          <element id="library" level="project" name="Maven: org.abego.treelayout:org.abego.treelayout.core:1.0.1" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:ssh-credentials:1.13" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:scm-api:2.2.0" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins.workflow:workflow-scm-step:1.14.2" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins.workflow:workflow-step-api:1.14.2" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:matrix-project:1.7.1" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:junit:1.2" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:script-security:1.13" />
+          <element id="library" level="project" name="Maven: org.kohsuke:groovy-sandbox:1.8" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:mailer:1.18" />
+          <element id="library" level="project" name="Maven: org.jenkins-ci.plugins:display-url-api:0.2" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/echo/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="javaweb-02-filter02/web/Web" />
+    </root>
+  </artifact>
+</component>
